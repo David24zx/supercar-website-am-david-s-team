@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 :root {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -728,14 +729,6 @@ html {
 }
 
 
-
-@media screen and (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
 }
@@ -1153,3 +1146,33 @@ html {
     margin-left: 170px;
     margin-top: 240px;
 }
+
+@media screen and (max-width: 1024px){
+    .navbar {
+        display: none;
+    }
+
+    .texthome{
+        display: block;
+        font-size: 2rem;
+        padding: 5%;
+
+    }
+    .img-hero {
+        height: auto;
+        width: auto;
+        background-size: 100% 100%;
+        
+    }
+    .pic1 {
+        flex-direction: column;
+    }
+
+    .firstimage {
+        
+    }
+
+    .pic2 {
+        flex-direction: column;
+    }
+    }
