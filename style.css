@@ -17,6 +17,18 @@ body {
     border: 2px solid black;
     padding: 0%;
 }
+.navbar2{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    background-color: #737373;
+}
+.navbar3{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    background-color: grey;
+}
 
 .desitnations {
     display: flex;
