@@ -509,8 +509,6 @@ select:focus+ ::after {
     height: 995px;
 }
 
-.configWhite {}
-
 .changing-thiscolor {
     display: flex;
     justify-content: flex-end;
@@ -591,6 +589,11 @@ ul li ul:focus {
     clear: both;
     width: 100%;
 }
+
+.model1 {
+    
+}
+
 
 /* Car Configuration */
 
