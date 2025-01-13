@@ -1218,32 +1218,43 @@ a {
     margin-top: 240px;
 }
 
-@media screen and (max-width: 1024px){
-    .navbar {
-        display: none;
-    }
+@media (max-width: 1024px){
+.desitnations{
+margin-left: 100px;
+}
+.img{
+    display: none;
+}
+.pictures{
 
-    .texthome{
-        display: block;
-        font-size: 2rem;
-        padding: 5%;
+}
+.pic1{
+flex-direction: column;
+margin-left: 0;
 
-    }
-    .img-hero {
-        height: auto;
-        width: auto;
-        background-size: 100% 100%;
-        
-    }
-    .pic1 {
-        flex-direction: column;
-    }
-
-    .firstimage {
-        
-    }
-
-    .pic2 {
-        flex-direction: column;
-    }
+}
+.texthome{
+margin-right: 0;
+}
+.pic2{
+    flex-direction: column;
+    margin-left: 0;
+}
+.foot{
+margin-left: 0;
+}
+.language-translator{
+    margin-bottom: 150px;
+}
+.img50{
+    display: none;
+}
+.firstimage{
+    margin-left: 0;
+    width: fit-content;
+}
+.imgfinal{
+    margin-left: 0;
+    width: auto;
+}
     }
