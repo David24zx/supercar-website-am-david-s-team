@@ -13,7 +13,7 @@ function selectTab(selectedTab) {
   if (targetSection) {
     targetSection.style.display = 'block';
   }
-
+  
   const carImage = document.querySelector('.car-image');
   if (selectedTab.dataset.target === 'exterior-content') {
     carImage.src = 'config-white-car.png';

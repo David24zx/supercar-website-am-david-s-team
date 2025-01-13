@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 :root {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -15,6 +16,18 @@ body {
     align-items: center;
     border: 2px solid black;
     padding: 0%;
+}
+.navbar2{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    background-color: #737373;
+}
+.navbar3{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    background-color: grey;
 }
 
 .desitnations {
@@ -728,14 +741,6 @@ html {
 }
 
 
-
-@media screen and (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
 }
@@ -1013,6 +1018,65 @@ html {
 /* Dealerships */
 
 
+/*account*/
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: #000000;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: green;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/*account*/
 
 
 /*  */
@@ -1153,3 +1217,33 @@ html {
     margin-left: 170px;
     margin-top: 240px;
 }
+
+@media screen and (max-width: 1024px){
+    .navbar {
+        display: none;
+    }
+
+    .texthome{
+        display: block;
+        font-size: 2rem;
+        padding: 5%;
+
+    }
+    .img-hero {
+        height: auto;
+        width: auto;
+        background-size: 100% 100%;
+        
+    }
+    .pic1 {
+        flex-direction: column;
+    }
+
+    .firstimage {
+        
+    }
+
+    .pic2 {
+        flex-direction: column;
+    }
+    }
