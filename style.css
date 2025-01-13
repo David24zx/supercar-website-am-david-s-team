@@ -762,127 +762,6 @@ html {
 
 /* About Us */
 
-/* Dealerships */
-html {
-    -webkit-text-size-adjust: 100%;
-}
-
-.Deal {
-    background-color: #737373;
-    height: 100vh;
-}
-
-
-.Dealerships {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 2vh;
-}
-
-.Dealerships button {
-    align-self: flex-start;
-    width: 405px;
-    height: 50px;
-    position: relative;
-    left: 5vh;
-    top: 15rem;
-    font-size: 28px;
-    background-color: #404040;
-    color: white;
-}
-
-
-.Dealerships input {
-    width: 125%;
-    background-color: #404040;
-    color: white;
-    font-size: 25px;
-}
-
-.Dealerships label {
-    font-size: 20px;
-    color: #ffffff;
-}
-
-.deale {
-    position: relative;
-    right: 47.3rem;
-    top: 20rem;
-}
-
-.sub {
-    width: 52%;
-    height: 500px;
-    position: relative;
-    bottom: 140px;
-}
-
-.Dealerships h2 {
-    align-self: flex-start;
-    position: relative;
-    left: 30%;
-    top: 60px;
-    font-size: 50px;
-    color: white;
-}
-
-.LastName {
-    position: relative;
-    left: 130%;
-    bottom: 86px;
-}
-
-.email {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 86px;
-}
-
-.Phone {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 86px;
-}
-
-.region {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 86px;
-}
-
-.city {
-    position: relative;
-    right: 0%;
-    bottom: 86px;
-}
-
-.state {
-    position: relative;
-    left: 130%;
-    bottom: 172.1px;
-}
-
-.zip {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 170px;
-}
-
-.question {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 170px;
-}
-
-/* Dealerships */
-
 
 /*account*/
 * {
@@ -918,8 +797,8 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #04AA6D;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
   padding: 16px 20px;
   margin: 8px 0;
   border: none;
@@ -932,15 +811,19 @@ hr {
   opacity: 1;
 }
 
-/* Add a blue text color to links */
-a {
-  color: green;
-}
-
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
-  background-color: #f1f1f1;
+  background-color: #000000;
+  color: white;
   text-align: center;
+}
+
+.bb {
+    color: black;
+}
+
+.apple {
+    background-color: #ed0027;
 }
 /*account*/
 
