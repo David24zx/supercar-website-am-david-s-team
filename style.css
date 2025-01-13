@@ -460,140 +460,6 @@ select:focus+ ::after {
 
 /* Jen's work*/
 
-/* Configuration */
-
-.msbutton {
-    display: flex;
-    list-style: none;
-}
-
-.Saver {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    list-style: none;
-}
-
-.Saver button {
-    width: 250px;
-    height: 135px;
-    position: absolute;
-    bottom: 100px;
-    right: 260px;
-    font-size: 37px;
-}
-
-.config {
-    background-color: #737373;
-    height: 50vh;
-}
-
-.config-button {
-    color: black;
-}
-
-.newbutton {
-    color: black;
-}
-
-.configWhite {
-    display: flex;
-    align-items: flex-start;
-    justify-items: flex-start;
-    position: absolute;
-    top: 10px;
-}
-
-.configWhite img {
-    width: 1270px;
-    height: 995px;
-}
-
-.configWhite {}
-
-.changing-thiscolor {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.changing-thiscolor nav {
-    align-items: flex-start;
-    background-color: #D9D9D9;
-    float: left;
-    width: 754px;
-    height: 997px;
-    font-family: monospace;
-}
-
-.changing-thiscolor a {
-    text-decoration: none;
-}
-
-.changing-thiscolor ul {
-    background: #D9D9D9;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    position: absolute;
-    right: 50px;
-    font-size: 33px;
-    border: 2px black solid;
-}
-
-.changing-thiscolor li {
-    color: #fff;
-    background: #D9D9D9;
-    display: block;
-    float: left;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-    transition-duration: 0.5s;
-    border: 1px black solid;
-}
-
-.changing-thiscolor li a {
-    color: #000000;
-}
-
-.changing-thiscolor li:hover,
-.changing-thiscolor li:focus-within {
-    background: #9a9a9a;
-    cursor: pointer;
-}
-
-.changing-thiscolor li:focus-within a {
-    outline: none;
-}
-
-.changing-thiscolor ul li ul {
-    background: #4a4a4a;
-    visibility: hidden;
-    opacity: 0;
-    min-width: 11.23rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
-}
-
-.changing-thiscolor ul li:hover>ul,
-ul li:focus-within>ul,
-ul li ul:hover,
-ul li ul:focus {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-}
-
-.changing-thiscolor ul li ul li {
-    clear: both;
-    width: 100%;
-}
-
-/* Car Configuration */
-
 /* About Us */
 
 body,
@@ -896,127 +762,6 @@ html {
 
 /* About Us */
 
-/* Dealerships */
-html {
-    -webkit-text-size-adjust: 100%;
-}
-
-.Deal {
-    background-color: #737373;
-    height: 100vh;
-}
-
-
-.Dealerships {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 2vh;
-}
-
-.Dealerships button {
-    align-self: flex-start;
-    width: 405px;
-    height: 50px;
-    position: relative;
-    left: 5vh;
-    top: 15rem;
-    font-size: 28px;
-    background-color: #404040;
-    color: white;
-}
-
-
-.Dealerships input {
-    width: 125%;
-    background-color: #404040;
-    color: white;
-    font-size: 25px;
-}
-
-.Dealerships label {
-    font-size: 20px;
-    color: #ffffff;
-}
-
-.deale {
-    position: relative;
-    right: 47.3rem;
-    top: 20rem;
-}
-
-.sub {
-    width: 52%;
-    height: 500px;
-    position: relative;
-    bottom: 140px;
-}
-
-.Dealerships h2 {
-    align-self: flex-start;
-    position: relative;
-    left: 30%;
-    top: 60px;
-    font-size: 50px;
-    color: white;
-}
-
-.LastName {
-    position: relative;
-    left: 130%;
-    bottom: 86px;
-}
-
-.email {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 86px;
-}
-
-.Phone {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 86px;
-}
-
-.region {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 86px;
-}
-
-.city {
-    position: relative;
-    right: 0%;
-    bottom: 86px;
-}
-
-.state {
-    position: relative;
-    left: 130%;
-    bottom: 172.1px;
-}
-
-.zip {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 170px;
-}
-
-.question {
-    width: 125%;
-    position: relative;
-    right: 0%;
-    bottom: 170px;
-}
-
-/* Dealerships */
-
 
 /*account*/
 * {
@@ -1052,8 +797,8 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #04AA6D;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
   padding: 16px 20px;
   margin: 8px 0;
   border: none;
@@ -1066,18 +811,146 @@ hr {
   opacity: 1;
 }
 
-/* Add a blue text color to links */
-a {
-  color: green;
-}
-
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
-  background-color: #f1f1f1;
+  background-color: #000000;
+  color: white;
   text-align: center;
+}
+
+.bb {
+    color: black;
+}
+
+.apple {
+    background-color: #ed0027;
 }
 /*account*/
 
+/* login */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 30%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+  .cherry {
+    background-color: #ed0027;
+  }
+/* login */
 
 /*  */
 
