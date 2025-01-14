@@ -210,7 +210,7 @@ nav {
 .nemesisbutton {
     display: flex;
     align-self: flex-end;
-    margin-left: 160vh;
+    margin-left: 1360px;
     margin-top: 60vh;
     padding: 15px 32px;
     border: none;
@@ -460,7 +460,6 @@ select:focus+ ::after {
 
 /* Jen's work*/
 
-<<<<<<< HEAD
 /* Configuration */
 
 .msbutton {
@@ -598,8 +597,6 @@ ul li ul:focus {
 
 /* Car Configuration */
 
-=======
->>>>>>> cee699f17a35041c8305cc87759bfd25735e0045
 /* About Us */
 
 body,
@@ -986,7 +983,6 @@ input[type=text], input[type=password] {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
   }
   
   button:hover {
