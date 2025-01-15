@@ -141,6 +141,7 @@ nav {
 .ham-menu {
     height: 50px;
     width: 40px;
+    margin-top: 10px;
     /* margin-left: auto; */
     position: relative;
 }
@@ -1227,43 +1228,29 @@ input[type=text], input[type=password] {
     margin-top: 240px;
 }
 
-@media (max-width: 1024px){
+@media (min-width: 430px){
 .desitnations{
-margin-left: 100px;
+display: none;
 }
+
 .img{
     display: none;
 }
-.pictures{
+.ham-menu{
 
 }
-.pic1{
-flex-direction: column;
-margin-left: 0;
-
+.img-hero{
+background-size: auto;
 }
 .texthome{
-margin-right: 0;
+    font-size: medium;
+    padding: 20px;
+    flex-wrap: wrap;
+    max-height: 400px;
+    min-width: 300px;
+    margin-left: 60px;
 }
-.pic2{
+.pic1{
     flex-direction: column;
-    margin-left: 0;
-}
-.foot{
-margin-left: 0;
-}
-.language-translator{
-    margin-bottom: 150px;
-}
-.img50{
-    display: none;
-}
-.firstimage{
-    margin-left: 0;
-    width: fit-content;
-}
-.imgfinal{
-    margin-left: 0;
-    width: auto;
 }
     }
