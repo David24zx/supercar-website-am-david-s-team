@@ -1085,6 +1085,11 @@ input[type=text], input[type=password] {
   .cherry {
     background-color: #ed0027;
   }
+
+  .help {
+    position: relative;
+    left: 45%;
+    }
 /* login */
 
 /*  */
