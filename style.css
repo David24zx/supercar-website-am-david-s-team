@@ -1232,29 +1232,3 @@ input[type=text], input[type=password] {
     margin-top: 240px;
 }
 
-@media (min-width: 430px){
-.desitnations{
-display: none;
-}
-
-.img{
-    display: none;
-}
-.ham-menu{
-
-}
-.img-hero{
-background-size: auto;
-}
-.texthome{
-    font-size: medium;
-    padding: 20px;
-    flex-wrap: wrap;
-    max-height: 400px;
-    min-width: 300px;
-    margin-left: 60px;
-}
-.pic1{
-    flex-direction: column;
-}
-    }
